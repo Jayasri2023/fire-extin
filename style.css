@@ -1,0 +1,464 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.banner
+{
+    background: url(banner.png);
+    height: 902px;
+    background-size:100% 100%;
+}
+.nav-detail
+{
+    display: flex;
+    justify-content: center;
+    
+}
+.navbar
+{
+    padding-top: 35px;
+}
+.navlist
+{
+    display: flex;
+}
+.nav{
+    list-style: none;
+padding-left: 55px;
+font-family: 'Cairo', sans-serif;
+font-size: 18px;
+color:white;
+}
+.home
+{
+    list-style: none;
+    font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+    color:white;
+padding-left: 300px;
+}
+.banner-text
+{
+    color: white;
+   text-align: center;
+   margin-top: 200px;
+}
+.kitchen-h1
+{
+    font-size: 82px;
+    font-family: "Oswald";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+margin: 0;
+}
+.kitchen-p
+{
+    font-size: 30px;
+    font-family: "Oswald";
+    color: rgb(255, 255, 255);
+    margin:0;
+letter-spacing: 10px;
+}
+
+.kitchen-button
+{
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: "Cairo";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+background: transparent;
+border: 2px solid white;
+padding: 15px 35px;
+}
+.kit-card
+{
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.k-card
+{
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 35px 45px 0px rgba(0, 47, 84, 0.05);
+    width: 235px;
+    height: 235px;
+text-align: center;
+box-sizing: border-box;
+}
+.kit-icon
+{
+    margin-top: 30px;
+}
+.kit-body
+{
+display: flex;
+ justify-content: center; 
+/* text-align: center; */
+padding-left: 20px;
+}
+.kit-num
+{
+    font-size: 36px;
+    font-family: "Oswald";
+    color: rgb(1, 113, 202);
+    text-align: center;
+}
+.kit-p{
+    font-size: 18px;
+    font-family: "Cairo";
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+padding-top: 22px;
+width: 60%;
+padding-left: 10px;
+text-align: center;
+}
+.second-sec
+{
+    margin-top:100px ;
+}
+.extin-sec
+{
+    display: flex;
+    width: 1050px;
+    margin: 0 auto;
+}
+.extin
+{
+    height: 530px;
+    width: 520px;
+}
+.extin-para
+{
+    margin-left: 30px;
+}
+.extin-h1
+{
+    font-size: 36px;
+font-family: "Oswald";
+color: rgb(29, 29, 29);
+font-weight: bold;
+}
+.extin-p
+{
+    font-size: 20px;
+font-family: "Myriad Pro";
+color: rgb(127, 127, 127);
+line-height: 1.5;
+width: 90%;
+}
+.extin-button
+{
+    background-color: rgb(64,159,235);
+    color: white;
+    width: 176px;
+    height: 60px;
+border: none;
+margin-top: 30px;
+}
+.prevent
+{
+    margin-top: 160px;
+}
+.pre-sec
+{
+    display: flex;
+    margin: 0 auto;
+    width: 1050px;
+}
+.pre-card
+{
+     background: url(prevent1.png);
+     height: 560px;
+     width: 350px;
+     border-radius: 10px;
+}
+.pre-card1
+{
+    background: url(prevent2.png);
+    height: 560px;
+    width: 350px;
+    border-radius: 10px;
+}
+.pre-card2
+{
+    background: url(prevent3.png);
+    height: 560px;
+    width: 350px;
+    border-radius: 10px;
+}
+.pre-h1
+{
+    font-size: 24px;
+    font-family: "Oswald";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+padding-left: 80px;
+padding-top: 20px;
+}
+.pre-p
+{
+    font-size: 20px;
+    font-family: "Cairo";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    padding-left: 80px;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
+}
+.pre-button
+{
+    font-size: 16px;
+    font-family: "Cairo";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;   
+    padding-left: 80px;
+}
+ .testimoni
+ {
+    background: url(testimoni.png);
+    height: 900px;
+    margin-top: 85px;
+    background-size: 100% 100%;
+ }
+ .testimoni-text
+ {
+    padding-top: 100px;
+    text-align: center;
+}
+
+ .testi-p
+ {
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center; 
+}
+.testi-h1
+{
+    font-size: 36px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    text-align: center;
+}
+.testi-p1
+{
+    font-size: 20px;
+    font-family: "Myriad Pro";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    margin: 0 auto;
+    width: 50%;
+}
+.testi-pic
+{
+   margin-top: 50px;
+}
+.kelly
+{
+    font-size: 20px;
+    font-family: "Oswald";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+margin: 0;
+}
+.testi-p2
+{
+    font-size: 20px;
+    font-family: "Cairo";
+    color:black;
+    margin: 0 auto;
+    width: 50%;
+}
+.star
+{
+    margin-top: 30px;
+}
+.google-review
+{
+    display: flex;
+    justify-content: center;
+margin-top: 10px;
+}
+.pic{
+    margin-top: 12px;
+}
+.review
+{
+    padding-left: 20px;
+}
+.explore
+{
+    margin-top: 80px
+}
+.explore-p
+{
+    font-size: 20px;
+    font-family: "Cairo";
+    color: rgb(127, 127, 127);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.explore-h1
+{
+    font-family: 'Oswald';
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.explore-card
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.exp-card1
+{
+    background: url(explore1.png);
+    height: 578px;
+    width: 300px;
+}
+.exp-card2
+{
+    background: url(explore2.png);
+    height: 578px;
+    width: 300px;
+}
+.exp-card3
+{
+    background: url(explore3.png);
+    height: 578px;
+    width: 300px;
+}
+.exp-card4
+{
+    background: url(explore4.png);
+    height: 578px;
+    width: 300px;
+}
+.exp-h1
+{
+    font-family: "Oswald";
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    padding-left: 50px;
+}
+.exp-p{
+    font-family: 'Cairo';
+    font-size: 20px;
+    color: white;   
+    padding-left: 50px;
+    width: 70%;
+}
+.gallery
+{
+    margin-top: 125px;
+}
+.gal-p
+{
+    font-family: "Cairo";
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.gal-h1
+{
+    font-family: "Oswald";
+    font-size: 36px;
+    text-align: center;
+    text-transform: uppercase;   
+}
+.gall
+{
+    display: flex;
+    margin-top: 50px;
+}
+.gal
+{
+    padding: 0;
+}
+.blue
+{
+    display: flex;
+    justify-content: center;
+    height: 95px;
+    background-color: #3597e5;
+}
+.blue-h1
+{
+    font-family: "Oswald";
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+padding-top: 30px;
+}
+.number-h1
+{
+    font-family: "Oswald";
+    font-size: 30px;
+    color: white;
+    margin: 0;
+    padding-top: 30px;
+}
+.phone-img
+{
+    padding-left: 235px;
+    padding-top: 40px;
+}
+.number-h1
+{
+    padding-left: 10px;
+}
+.footer
+{
+    height: 700px;
+    background-color: black;
+    color:white;
+}
+.foot-h1
+{
+    font-family: "Oswald";
+    font-size: 18px;
+    margin: 0;
+}
+.foot-p
+{
+    font-family: "Cairo";
+    font-size: 18px;
+    color: grey;
+}
+.footer-card
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 115px;
+}
+.foot-card{
+    margin-left: 70px;
+}
+.footer-text
+{
+    padding-left: 530px;
+}
+.footer-card2
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
